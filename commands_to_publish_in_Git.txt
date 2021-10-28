@@ -1,0 +1,9 @@
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit for Python Tutorial"
+git status 																# just to see
+ssh-keygen -t rsa -b 4096 -C "dhruba.drp@gmail.com"						# generates ssh key
+cat  /c/Users/dhrubarp/.ssh/id_rsa.pub 									# to see the ssh key [add this key to github account]
+git remote add origin git@github.com:dhrubap89/PythonTutorials.git		# to link remote url to current directory
+git push origin master													# publish all codes to the remote url
